@@ -1,46 +1,40 @@
-Work commands
+### Work commands
 
-(Prefix)work
+`(Prefix)work`
 
-Variables : money - value : 0
-
-You can change variable name but can't change variable value
+**Variables : money - value : 0**
+**You can change variable name but can't change variable value**
 
 Code:
 BDscript
 
-$nomention
+``$nomention
 $title[Work]
 $description[You work in $randomText[Police Station;Hopistal;Fire station] and earned $random[500-1000] 💵]
-
 $footer[]
 $color[FFFFFF]
+$setUserVar[money;$sum[$getUserVar[money];$random[500;1000]``
 
-$setUserVar[money;$sum[$getUserVar[money];$random[500;1000]
 
+### Balance Commands
 
-Balance Commands
-
-(Prefix)bal
+`(Prefix)bal`
 
 Code :
 BDscript
 
 
-$nomention
+``$nomention
 $title[Work]
 $description[Your money : $getUserVar[money]]
-
 $footer[]
-$color[FFFFFF]
+$color[FFFFFF]``
 
 
-You can change description 
+> You can change description 
+> In work commands , you can change money ($random[you can change money])
+> Write what you want in $footer[]
 
-In work commands , you can change money ($random[you can change money])
-
-Write what you want in $footer[]
-
-Need help? 
-Dms anh3saigon#0001 in discord 
+**Need help? 
+Dms anh3saigon#0001 in discord**
 
