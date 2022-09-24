@@ -3,6 +3,7 @@ Work commands
 (Prefix)work
 
 Variables : money - value : 0
+
 You can change variable name but can't change variable value
 
 Code:
@@ -32,6 +33,7 @@ $color[FFFFFF]
 
 
 You can change description 
+
 In work commands , you can change money ($random[you can change money])
 Write what you want in $footer[]
 Need help? 
