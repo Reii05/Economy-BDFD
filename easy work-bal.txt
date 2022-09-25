@@ -30,7 +30,7 @@ $description[Your money : $getUserVar[money]]
 $footer[]
 $color[FFFFFF]
 
-
+📝 Note : 
 You can change description
-In work commands , you can change money ($random[you can change money])
+In work commands , you can change money ($random[money;money])
 Write what you want in $footer[] or delete it
