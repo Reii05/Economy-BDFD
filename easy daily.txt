@@ -4,7 +4,6 @@ Daily Commands
 
 Variables : money - Value : 0
 
-
 Code :
 BDscript
 
@@ -13,5 +12,10 @@ $title[Daily]
 $description[You get $random[500;1000] 💵 daily]
 $setUserVar[money;$sum[$getUserVar[money];$random[500;1000]
 $color[FFFFFF]
+
+📝 Note :
+You can change variable name but can't change variable value
+Write what you want in $footer[] or delete it
+You can change money($random[money;money])
 
 
