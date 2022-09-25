@@ -33,4 +33,4 @@ $color[FFFFFF]
 
 You can change description
 In work commands , you can change money ($random[you can change money])
-Write what you want in $footer[]
+Write what you want in $footer[] or delete it
