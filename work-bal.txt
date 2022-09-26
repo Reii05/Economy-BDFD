@@ -5,7 +5,6 @@ BDScript
 $nomention
 $title[Work]
 $description[You work in $randomText[Police Station;Hopistal;Fire station] and earned $random[500;1000] 💵]
-$footer[]
 $color[FFFFFF]
 $setUserVar[money;$sum[$getUserVar[money];$random[500;1000]
 
@@ -17,5 +16,4 @@ BDScript
 $nomention
 $title[Work]
 $description[Your money : $getUserVar[money]]
-$footer[]
 $color[FFFFFF]
