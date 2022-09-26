@@ -1,0 +1,9 @@
+Daily Commands
+
+BDscript
+
+$nomention
+$title[Daily]
+$description[You get $random[500;1000] 💵 daily]
+$setUserVar[money;$sum[$getUserVar[money];$random[500;1000]
+$color[FFFFFF]
